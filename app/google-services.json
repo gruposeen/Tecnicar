@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "159515055592",
+    "project_id": "tecnicar-9e83b",
+    "storage_bucket": "tecnicar-9e83b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159515055592:android:feaa75d7f280ce4fef805d",
+        "android_client_info": {
+          "package_name": "com.example.tecnicar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159515055592-vhdg6cir3902b0mfu2pe5dj6cpq0pgse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tecnicar",
+            "certificate_hash": "e8e92378b10e9b9f70aef31f04dab6840e56b6c4"
+          }
+        },
+        {
+          "client_id": "159515055592-pbuit7lebmmk635qdicq4sl704p93uhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhr5_O2iwvkULxqK035d2w7bTRJdcpU00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159515055592-pbuit7lebmmk635qdicq4sl704p93uhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

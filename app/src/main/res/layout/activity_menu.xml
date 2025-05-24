@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a TecnicAr"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botón 1 -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#AAFFFFFF">
+
+        <Button
+            android:id="@+id/btnMapaActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver mapa de técnicos"
+            android:drawableStart="@android:drawable/ic_menu_mapmode"
+            android:padding="16dp"
+            android:textAllCaps="false"
+            android:textColor="#BF4D00"
+            android:backgroundTint="#FFFFFFFF"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Botón 2 -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#AAFFFFFF">
+
+        <Button
+            android:id="@+id/btnListaTecnicosActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver lista de técnicos"
+            android:drawableStart="@android:drawable/ic_menu_sort_by_size"
+            android:padding="16dp"
+            android:textAllCaps="false"
+            android:textColor="#BF4D00"
+            android:backgroundTint="#FFFFFFFF"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Botón 3 -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#AAFFFFFF">
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión"
+            android:drawableStart="@android:drawable/ic_lock_power_off"
+            android:padding="16dp"
+            android:textAllCaps="false"
+            android:textColor="#BF4D00"
+            android:backgroundTint="#FFFFFFFF"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+
+
