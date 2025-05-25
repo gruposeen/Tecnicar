@@ -1,5 +1,7 @@
 # 🔧 Tecnicar – Conectamos técnicos con personas que los necesitan
 
+<img align="right" src="https://raw.githubusercontent.com/gruposeen/Tecnicar/refs/heads/main/app/src/main/ic_launcher-playstore.png?token=GHSAT0AAAAAADEOERUXYXQ5SWFAGLSLIH7S2BS532A" width="175" />
+
 Tecnicar es una app móvil desarrollada como proyecto integrador por el equipo **SEEN**, cuyo objetivo es facilitar la conexión entre personas que necesitan servicios técnicos (como plomeros, electricistas, gasistas, etc.) y profesionales disponibles en su zona.
 
 Esta aplicación forma parte de una plataforma dual (cliente / técnico) pensada para optimizar el proceso de búsqueda, contratación y gestión de servicios técnicos a domicilio.
